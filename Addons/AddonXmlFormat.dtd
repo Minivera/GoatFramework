@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT GoatAddons (Addon*)>
+<!ELEMENT Addon (Redefines, Autoloader?)>
+<!ATTLIST RedefineCore name ID #REQUIRED>
+<!ATTLIST RedefineCore namespace CDATA #REQUIRED>
+<!ATTLIST RedefineCore requires CDATA #IMPLIED>
+<!ELEMENT Redefines (RedefineCore+, RedefineAddon*)>
+<!ELEMENT RedefineCore (#PCDATA)>
+<!ATTLIST RedefineCore old_class CDATA #REQUIRED>
+<!ELEMENT Autoloader (#PCDATA)>
+<!ATTLIST Autoloader instantiante CDATA #IMPLIED>
+<!ATTLIST Autoloader register_function CDATA #REQUIRED>

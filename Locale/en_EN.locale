@@ -1,0 +1,13 @@
+# This is the locale file for the English language
+# Make comments with #, the system will ignore them
+#
+# The translator ignore the case for key names.
+#
+# All locales files are formatted this way : Logical key name:value
+#
+# Follow the PSR-1 standard if possible, consider key names as constants and CAPITALIZE them.
+# When translated, all string identified as %keyname% will be translated to the given value.
+#
+# The translator can also translate exceptions names and object names if asked to.
+
+INVALIDREQUESTEXCEPTION:An invalid URL was entered
