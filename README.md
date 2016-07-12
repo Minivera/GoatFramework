@@ -8,7 +8,7 @@ Use the code documentation for more detailed informations.
 ## Coding standards exceptions
 
 This project uses the [PSR-1](http://www.php-fig.org/psr/psr-1/), 
-[PSR-2](http://www.php-fig.org/psr/psr-2/)and [PSR-4]¸(http://www.php-fig.org/psr/psr-4/) 
+[PSR-2](http://www.php-fig.org/psr/psr-2/)and [PSR-4](http://www.php-fig.org/psr/psr-4/) 
 coding standards with some exceptions. All these exceptions are tentative and subject to change.
 
 - In PSR-2, the *Opening braces for control structures MUST go on the same line, 
