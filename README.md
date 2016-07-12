@@ -91,7 +91,7 @@ class ExampleController extends \Core\MVC\CoreController
 {
     public function Show(string $text)
     {
-        $this->Model->setData($this->Model->getData . "<h2>$text</h2>");
+        $this->Model->setData($this->Model->getData() . "<h2>$text</h2>");
     }
 }
 ```

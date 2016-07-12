@@ -54,7 +54,7 @@ class PointCut
      * Constant for the validation of the point cut when constructed, this regex
      * checks if the point cut is made of namespace->method(), namespace::method() or function()
      */
-    const REGEX_POINTCUT_VALID = "/^((?:\S+\\)+\S+(->|::)[A-Za-z*]+\(\)|[A-Za-z*]+\(\))$/";
+    const REGEX_POINTCUT_VALID = "/^((?:\\S+\\\\)+\\S+(?:->|::)[A-Za-z*]+\\(\\)|[A-Za-z*]+\\(\\))$/";
     
     /**
      * The string containing the point cut to resolve
