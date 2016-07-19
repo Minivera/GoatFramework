@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT goat-variable (EMPTY)>
+<!ATTLIST goat-variable name CDATA #REQUIRED>
+<!ELEMENT goat-subdocument (EMPTY)>
+<!ATTLIST goat-subdocument name ID #REQUIRED>
+<!ATTLIST goat-subdocument path CDATA #REQUIRED>
+<!ELEMENT goat-documentconfig (EMPTY)>
+<!ATTLIST goat-documentconfig static (static) #IMPLIED>
+<!ATTLIST goat-documentconfig cache (cache) #IMPLIED>
+<!ATTLIST goat-documentconfig cache-lenght CDATA "60">

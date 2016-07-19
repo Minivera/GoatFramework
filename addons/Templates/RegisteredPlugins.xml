@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE AddonXmlFormat SYSTEM "Addons/AddonXmlFormat.dtd">
+<GoatAddons>
+    <Addon name="template" namespace="\Addons\Templates">
+        <Redefines>
+            <RedefineCore old_class="\Core\Engines\DisplayEngine">DisplayEngine</RedefineCore>
+            <RedefineCore old_class="\Core\Wrappers\PageWrapper">PageWrapper</RedefineCore>
+        </Redefines>
+    </Addon>
+</GoatAddons>
